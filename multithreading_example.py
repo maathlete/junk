@@ -29,5 +29,5 @@ pool = multiprocessing.Pool(4)
 pool.map(sleep, [1 for i in range(0,10)])
 
 end  = time.time()
-print("Pooling took: " + str(round(end-start,2)) + str(" seconds"))
+print("Multithreading took: " + str(round(end-start,2)) + str(" seconds"))
 
