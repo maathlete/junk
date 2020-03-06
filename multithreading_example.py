@@ -6,7 +6,7 @@ Created on Thu Mar  5 20:02:14 2020
 @author: alexandra
 """
 
-import multiprocessing#import threadpoolexecutor
+import multiprocessing
 import time
 import numpy as np
 
@@ -18,7 +18,7 @@ for i in range(0,10):
     time.sleep(1)
     
 end  = time.time()
-print("Serial execution took: " + str(end-start) + str(" seconds"))
+print("Synchronous execution took: " + str(end-start) + str(" seconds"))
 
 start = time.time()
 
